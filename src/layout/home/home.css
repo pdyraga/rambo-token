@@ -1,0 +1,13 @@
+.home-buttons {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+@media screen and (max-width: 500px) {
+    .home-buttons {
+        flex-direction: column;
+    }
+}

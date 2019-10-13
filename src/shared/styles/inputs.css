@@ -1,0 +1,44 @@
+.rounded-input {
+    border: none;
+    border: solid 2px darkgrey;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.2;
+    width: 20%;
+    height: 62px;
+    background: #fff;
+    border-radius: 31px;
+    padding: 0 35px;
+    transition: all .4s
+}
+
+.rounded-input:focus {
+    box-shadow: 0 1px 5px 0 rgba(126, 52, 161, 0.75);
+    width: 22%;
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+
+@media screen and (max-width: 1000px) {
+
+    .rounded-input {
+        width: 50%;
+    }
+
+    .rounded-input:focus {
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .rounded-input {
+        width: 75%;
+    }
+
+    .rounded-input:focus {
+        width: 80%;
+    }
+}
